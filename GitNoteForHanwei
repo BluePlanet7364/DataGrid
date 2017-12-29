@@ -1,0 +1,16 @@
+0. Open an account on github.com so that you can have a git remote repo. E.g https://github.com/BluePlanet7364/DataGrid.git
+1. Create a folder on your computer and put your code in this folder. E.g document/source/hanwei
+2. Open powershell, navigate to your folder's root. It is document/source/hanwei
+3. Type command: git init  ---- this command is to establish a local git on your computer
+4. Use command "git remote add origin https://github.com/BluePlanet7364/DataGrid.git"   --- This enable you to use "origin" as the code of your remote git repo
+4. Make code change. Use command: "git status" for your local changes. Use command "git diff" to check each change's details
+5. If everything is Okay, then use command "git add -A" to add all your local code changes. If only add specific changed files, then use "git add your-changed-file"
+6. use command "git commit -m "your commit message"" to commit your local changes to your local git repo
+7. use command "git push origin master" to push your local code changes in your local master to your remote master
+
+
+------------------
+Good pactice:
+1. always create a local branch: git checkout -b hanwei/ticketNo-YourFeature
+2. Make code change. 
+3. Then do step 4 to step 7
